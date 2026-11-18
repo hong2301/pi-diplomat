@@ -1,0 +1,26 @@
+{
+  "name": "remote-pi-daemon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cross-platform deploy/ops tool for remote-pi daemon mode (pi-supervisord + background Pi agents)",
+  "type": "module",
+  "bin": {
+    "remote-pi-daemon": "./deploy.mjs"
+  },
+  "scripts": {
+    "install-daemon": "node deploy.mjs install",
+    "status": "node deploy.mjs status",
+    "logs": "node deploy.mjs logs",
+    "doctor": "node deploy.mjs doctor",
+    "uninstall-daemon": "node deploy.mjs uninstall"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "license": "MIT"
+}

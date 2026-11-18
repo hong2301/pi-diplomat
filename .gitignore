@@ -1,0 +1,10 @@
+# 大二进制不进 git（GitHub 单文件 100MB 限制）
+resources/windows/*.msi
+resources/windows/*.exe
+resources/macos/*.pkg
+resources/linux/*.tar.xz
+resources/npm-packages/*.tgz
+
+# 本地临时
+*.log
+.DS_Store
