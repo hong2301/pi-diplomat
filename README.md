@@ -153,6 +153,7 @@ pi
 |---|---|
 | 后台常驻（开机自启、崩溃自愈） | 见 `resources/knowledge/remote-pi-daemon/README.md` |
 | AI 主动发手机通知 | 见 `resources/knowledge/bark-notify/`（需要 Bark key） |
+| 让 AI 念出文字（Windows） | 见 `resources/knowledge/say-tts/`（edge-tts + pygame）<br>macOS 直接用系统 `say "文字"`，Linux 用 `espeak` |
 
 ---
 
